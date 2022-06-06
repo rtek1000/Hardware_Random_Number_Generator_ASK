@@ -80,7 +80,7 @@ void setup() {
 
   randomSeed(val_sum);
 
-  Serial.print("val_adc: ");
+  Serial.print("val_sum: ");
   Serial.println(val_sum);
 #endif
 
