@@ -24,7 +24,7 @@ The RF 433 receiver captures any noise in its reception range, we can use these 
 - 06:08:27.750 -> random: 67
 - 06:08:35.715 -> random: 35
 
-## Serial Monitor output without using this method::
+## Serial Monitor output without using this method:
 - 06:13:51.300 -> random: 7
 - 06:13:55.114 -> random: 7
 - 06:13:59.659 -> random: 7
@@ -32,10 +32,15 @@ The RF 433 receiver captures any noise in its reception range, we can use these 
 - 06:14:07.154 -> random: 7
 - 06:14:11.001 -> random: 7
 
+## Schematic:
+
+![img](https://raw.githubusercontent.com/rtek1000/Hardware_Random_Number_Generator_ASK/main/RF433_COLOR.png)
+
+## References:
 
 - https://www.arduino.cc/reference/en/language/functions/random-numbers/randomseed/
 
-- Ref.: https://en.wikipedia.org/wiki/Hardware_random_number_generator
+- https://en.wikipedia.org/wiki/Hardware_random_number_generator
 
 
 ## Licence:
