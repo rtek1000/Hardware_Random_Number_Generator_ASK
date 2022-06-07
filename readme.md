@@ -10,10 +10,16 @@ The RF 433 receiver captures any noise in its reception range, we can use these 
 - - Seed random value
 
 - Hardware:
-- - 1- RF 433 recetor ASK
+- - 1- RF 433 recetor ASK (OOK)
 - - 1- Analog input
 - - 1- Resistor 10k (between receiver output and analog input)
-   
+
+![img](https://raw.githubusercontent.com/rtek1000/Hardware_Random_Number_Generator_ASK/main/rf433-92mhz-xtal.jpg)
+
+>Receiver module that receives On-off keyed (OOK) modulation signal and demodulated to digital signal for the next decoder stage. Local oscillator is made of PLL structure. The result is excellent performance in a simple to use, with a very low external component count.
+Source: https://manualzz.com/doc/30833578/rfrm4302-rxn3s-rf-receiver-module-ask--ook---315-433.92mhz
+
+
 ## Serial Monitor output using this method:
 
 - 06:07:55.480 -> random: 67
